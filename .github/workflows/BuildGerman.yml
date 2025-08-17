@@ -1,5 +1,7 @@
 name: Build German Version
-on: [push]
+on:
+  - push
+  - worklow_dispatch
 jobs:
   build_latex:
     runs-on: ubuntu-latest
