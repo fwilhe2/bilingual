@@ -1,7 +1,7 @@
 name: Build German Version
 on:
   - push
-  - worklow_dispatch
+  - workflow_dispatch
 jobs:
   build_latex:
     runs-on: ubuntu-latest
